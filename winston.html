@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winston</title>
+</head>
+<style>
+    .head{
+        height: 250px;
+        width: 240px;
+        background-color: yellow;
+        border-radius: 100%;
+        display: inline-block;
+    }
+    .head-outline{
+        display: inline-block;
+        width: 240px;
+        height: 250px;
+        border-radius: 100%;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 5.7px;
+        left: 5.4px;
+        pointer-events:none;
+    }
+    .mouth{
+        position: absolute;
+        height: 90px;
+        width: 80px;
+        background-color:#FC4141;
+        border-radius: 50%;
+        top: 130px;
+        left: 130px;
+        display: inline-block;   
+    }
+    .eye1{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-color:black;
+        border-radius: 50%;
+        top: 70px;
+        left: 70px;
+        display: inline-block;       
+    }
+    .eye2{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-color:black;
+        border-radius: 50%;
+        top: 70px;
+        left: 190px;
+        display: inline-block;       
+    }
+    marquee{
+        font-size: 40px;
+    }
+</style>
+<body>
+    <span class=head></span>
+    <span class=eye1></span>
+    <span class=eye2></span>
+    <span class=mouth></span>
+    <span class=head-outline></span>
+    <marquee>Winston</marquee>
+</body>
+</html>
